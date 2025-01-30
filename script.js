@@ -178,7 +178,7 @@ function checkRestaurantOpen(){
 
     const hora = data.getHours()
 
-    return hora >= 18 && hora < 22;
+    return hora >= 14 && hora < 22;
 
 }
 
